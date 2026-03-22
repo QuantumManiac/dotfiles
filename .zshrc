@@ -126,9 +126,6 @@ fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-alias nijf="~/fbsource/fbcode/python/scripts/nijf.py"
-alias m8t="~/fbsource/fbcode/python/farmhouse/m8t/release/m8t"
-alias sc-here="~/fbsource/fbcode/scripts/aleivag/sc-here"
 source <(fzf --zsh)
 
 [[ -f "$HOME/.cargo/env" ]] && . "$HOME/.cargo/env"
